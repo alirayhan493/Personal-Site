@@ -1,0 +1,17 @@
+<Spring
+          from={{ opacity: 0, marginTop: -1000 }}
+          to={{ opacity: 1, marginTop: 0 }}
+        >
+          {(props) => (
+            <div id="youtube player" style={props}>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube-nocookie.com/embed/yAZWTKJ31Lg"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          )}
+        </Spring>
